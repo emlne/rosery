@@ -1,0 +1,119 @@
+.footer {
+  background: #e9e4ea; /* dış arka plan */
+  padding: 60px 0;
+}
+
+.footer-container {
+  background: #f3f1f3;
+  width: 85%;
+  margin: auto;
+  border-radius: 25px;
+  padding: 40px 50px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-brand {
+  max-width: 250px;
+}
+
+.logo-circle {
+  width: 45px;
+  height: 45px;
+  background: #3d6f6f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-column h4 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-column a:hover {
+  color: #000;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #666;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.icon.instagram {
+  background: #e1306c;   /* pembe instagram rengi */
+  color: white;
+  text-decoration: none;
+  border:#c72c61;
+}
+
+.icon.instagram:visited {
+  color: white;
+}
+
+.icon.instagram:hover {
+  background: #c72c61;   /* hover'da biraz koyu */
+  color: white;
+}
+
+.icon.instagram:active {
+  background: #c72c61;
+  color: white;
+}
+
+.icon.instagram:focus {
+  outline: none;
+}
+
+
+hr {
+  margin-top: 30px;
+  border: none;
+  border-top: 1px solid #ddd;
+}
