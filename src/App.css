@@ -2,8 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  /*outline: 1px solid red;*/
 }
 
-body {
+#root {
+  width: 100% !important;
+  max-width: none;
+  display: block;
+
+}
+
+
+html ,body {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100% ;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
