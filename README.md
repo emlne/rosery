@@ -1,7 +1,7 @@
 # Rosery Apart Website
 
-Official website developed for Rosery Apart.
--https://rosery-apart.vercel.app/
+Official website developed for Rosery Apart.  
+https://rosery-apart.vercel.app/
 
 ## 🌿 About The Project
 
