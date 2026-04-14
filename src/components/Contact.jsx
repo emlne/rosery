@@ -12,7 +12,7 @@ export default function Contact() {
       phone: "+90 536 783 98 18",
       instagram: "https://www.instagram.com/rosery_apart/",
       airbnb: "https://www.airbnb.com.tr/users/profile/1470507955382401229",
-      //sahibinden: "https://sahibinden.com/xxxxx"
+      sahibinden: "https://shbd.io/s/Tsm0OHX0"
     },
     {
       title: "Rosery Apart Günlükbaşı",
@@ -20,8 +20,8 @@ export default function Contact() {
       address: "Cami Mahallesi, 1183. Sokak No:14, MUĞLA/Fethiye",
       phone: "+90 536 783 98 18",
       instagram: "https://www.instagram.com/rosery_apart/",
-      airbnb: "https://www.airbnb.com.tr/users/profile/1470507955382401229",
-      //sahibinden: "https://sahibinden.com/yyyyy"
+      airbnb: "https://www.airbnb.com.tr/rooms/1662519655034732898?source_impression_id=p3_1776172161_P3hsb8R4SPwwKgzL",
+      sahibinden: "https://shbd.io/s/Tsm0OHX0"
     }
   ];
 

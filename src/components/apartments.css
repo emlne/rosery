@@ -121,3 +121,82 @@
   background: white;
   color: black;
 }
+
+/* Masaüstü kodların aynen kalsın, en sona bunu ekle */
+
+@media (max-width: 768px) {
+  .apartments-section {
+    padding: 60px 5%; /* Yan boşlukları mobilde daralttık */
+  }
+
+  .apartments-section h2{
+    text-align: center;
+  }
+
+  /* Galeri Dizilimi: 3 sütun mobilde çok dar kalır, 2 sütuna çekiyoruz */
+  .apartment-gallery {
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto; /* Sabit 250px yerine içeriğe göre bırakalım */
+    gap: 8px;
+  }
+
+  /* Masaüstündeki o özel büyük kutu (2 satırlık olan) mobilde düzeni bozmasın */
+  .item-0 {
+    grid-row: auto; 
+    grid-column: span 2; /* İlk resmi mobilde tam genişlik yapabiliriz */
+  }
+
+  .apartment-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .apartment-tabs button {
+    background: #c2bbbb;
+    padding: 8px 15px;
+    font-size: 12px;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  .apartment-tabs button:hover {
+  background: #333;
+  color: white;
+  }
+
+  .apartment-tabs button.active {
+  background: black;
+  color: white;
+  }
+
+  /* --- MODAL MOBİL DÜZENLEME --- */
+
+  .modal-image {
+    max-width: 95%; /* Mobilde resmi ekranın neredeyse tamamına yayıyoruz */
+    max-height: 70vh; /* Yükseklik telefonun %70'ini geçmesin */
+    border-radius: 10px;
+  }
+
+  .prev, .next {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.4); /* Daha şeffaf ve hafif */
+  }
+
+  .prev {
+    left: 10px; /* Okları kenarlara iyice yaklaştırdık */
+  }
+
+  .next {
+    right: 10px;
+  }
+
+  .close {
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+  }
+}

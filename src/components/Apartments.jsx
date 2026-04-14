@@ -108,6 +108,7 @@ export default function Apartments() {
         {apartments.map((apt) => (
            <button
               key={apt.id}
+              className={selectedApartment.id === apt.id ? "active-tab" : ""}
               onClick={() => setSelectedApartment(apt)}
             >
       {apt.title}
