@@ -117,3 +117,57 @@ hr {
   border: none;
   border-top: 1px solid #ddd;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer-container {
+    width: 92%; /* Kenarlara daha çok yaklaşsın */
+    padding: 30px 20px; /* 50px olan yan boşluğu 20px'e düşürdük */
+  }
+
+  .footer-top {
+    /* Yazıları tek sıra yerine yan yana ikişerli (2x2) diziyoruz */
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px 10px;
+  }
+
+  /* Logo ve marka kısmının mobilde tam genişlik kaplaması daha iyi durur */
+  .footer-brand {
+    grid-column: span 2; 
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .logo-circle {
+    margin: 0 auto 15px; /* Logoyu mobilde ortaladık */
+  }
+
+  .footer-column h4 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #000; /* Başlıklar mobilde daha belirgin olsun */
+  }
+
+  .footer-column a {
+    font-size: 13px;
+  }
+
+  .footer-bottom {
+    flex-direction: column; /* Telif yazısı ve ikonları alt alta aldık */
+    gap: 20px;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+}

@@ -3,7 +3,7 @@ import { FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer-container">
 
         <div className="footer-top">
@@ -15,6 +15,7 @@ export default function Footer() {
             <a href="#about">Hakkımızda</a>
             <a href="#apartments">Dairelerimiz</a>
             <a href="#amenities">Olanaklar</a>
+            <a href="#contact">İletişim</a>
           </div>
 
           {/* Olanaklar */}

@@ -4,7 +4,7 @@ import heroImage from './hero.jpeg';
 function Hero() {
 
     return (
-        <section className="hero" style={{ backgroundImage: `url(${heroImage})` }}>
+        <section className="hero" style={{ backgroundImage: `url(${heroImage})` }} id="home">
             <div className="overlay"></div>
             <div className="hero-content">
             <div className="hero-left">

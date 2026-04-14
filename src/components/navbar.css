@@ -39,5 +39,42 @@
 .nav-links li:hover {
   opacity: 0.7;
 }
+/* Masaüstü ayarların aynen kalsın, sadece bunları ekle/güncelle */
 
+@media (max-width: 768px) {
+  .navbar {
+    /* Mobilde logo ve menüyü alt alta alıyoruz ki yanlara sığsın */
+    flex-direction: column; 
+    padding: 15px 10px; 
+    gap: 10px;
+    position: absolute; /* Hero görselinin üzerine binmemesi için duruma göre ayarlanabilir */
+    background-color: transparent; /* Mobilde okunabilirliği artırmak için hafif bir arka plan */
+  }
+
+  .logo {
+    font-size: 18px; /* Logoyu biraz küçülttük */
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #ff4ecb, #7b5cff);
+
+    background-clip: text;              /* standart */
+    -webkit-background-clip: text;      /* chrome, safari */
+
+    color: transparent;                 /* standart */
+    -webkit-text-fill-color: transparent;
+  }
+
+  .nav-links {
+    gap: 12px; /* Linkler arasındaki o devasa 40px boşluğu 12px'e düşürdük */
+    flex-wrap: wrap; /* Ekrana sığmazsa kelimeler otomatik olarak 2. satıra geçer, ekranı ittirmez */
+    justify-content: center; /* Linkleri ortalar */
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 12px; /* Yazı boyutunu mobilde biraz daha kompakt yaptık */
+    text-transform: uppercase; /* Daha profesyonel durur */
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+}
 

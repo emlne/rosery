@@ -60,3 +60,57 @@
 .social-links a:hover {
   background: #ff4dc4;
 }
+
+/* Mevcut stillerinin altına ekle */
+
+@media (max-width: 768px) {
+  .locations {
+    padding: 40px 15px; /* Kenar boşluklarını daralttık */
+  }
+
+  .locations h2 {
+    text-align: center; /* Başlığı mobilde ortalamak daha iyi durur */
+    padding-left: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+
+  .location-card {
+    flex-direction: column; /* Harita üste, bilgiler alta */
+    gap: 20px;
+    margin-bottom: 40px;
+    align-items: flex-start; /* Sola yaslı duruşu korur */
+  }
+
+  .location-card iframe {
+    width: 100%; /* Harita tam genişlik */
+    height: 250px; /* Mobilde çok yer kaplamasın */
+  }
+
+  .location-info {
+    width: 100%; /* Bilgiler tam genişlik */
+    padding: 0 5px;
+  }
+
+  .location-info h3 {
+    font-size: 20px;
+  }
+
+  .location-info p {
+    font-size: 14px;
+    align-items: flex-start; /* Uzun adreslerde ikonun yukarıda kalmasını sağlar */
+  }
+
+  .social-links {
+    flex-wrap: wrap; /* Butonlar sığmazsa alt satıra geçer */
+    gap: 10px;
+  }
+
+  .social-links a {
+    font-size: 13px;
+    padding: 8px 12px;
+    flex: 1; /* Butonların genişliğini eşitler (opsiyonel) */
+    text-align: center;
+    min-width: 100px;
+  }
+}
