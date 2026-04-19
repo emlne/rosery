@@ -42,6 +42,7 @@ export default function Apartments() {
         "assets/kat2/kat2_5.jpeg",
         "assets/kat2/kat2_6.jpeg",
         "assets/kat2/kat2_7.jpeg",
+        "assets/kat2/kat2_8.jpeg",
       ],
     },
     {
@@ -61,6 +62,8 @@ export default function Apartments() {
         "assets/gb2/gb2_1.jpeg",
         "assets/gb2/gb2_2.jpeg",
         "assets/gb2/gb2_3.jpeg",
+        "assets/gb2/gb2_4.png",
+        "assets/gb2/gb2_5.png",  
       ],
     },
     {
